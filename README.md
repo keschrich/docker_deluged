@@ -9,8 +9,8 @@ See **keschrich/deluge-web** ([Docker Hub](https://hub.docker.com/r/keschrich/de
 See the readme for keschrich/deluge-common for the rationale on *yet another* deluge container.
 ## Volumes
 Two volumes are specified in the Dockerfile:
-- /config <-- Deluge configuration dir
-- /data <-- Torrents and in progress/completed downloads.
+- /config - Deluge configuration dir
+- /data - Torrents and in-progress/completed downloads.
 
 Alternatively, you can break */data* into separate volumes:
 - /data/torrents
